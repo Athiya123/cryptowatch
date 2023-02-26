@@ -35,7 +35,7 @@ function App() {
         
         {/* your private and public routes goes here */}
         {/* <privateRoute path ="/" component ={HomePage}></privateRoute> */}
-        <PrivateRoute path="/" component={Homepage}></PrivateRoute>
+        <PrivateRoute path="/home" component={Homepage}></PrivateRoute>
         <PublicRoute path="/login" component={LoginPage}></PublicRoute> 
         <PublicRoute path="/register" component={Register}></PublicRoute> 
 

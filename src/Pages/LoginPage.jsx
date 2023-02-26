@@ -17,7 +17,7 @@ const LoginPage = () => {
       alert(`u don't have account yet plz register`);
     }
     if(usercredentials.email === credentials.email && usercredentials.password === credentials.password){
-        return history.push('/');
+        return history.push('/home');
     }
     else{
         alert('credentials are invalid');
