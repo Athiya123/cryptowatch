@@ -39,7 +39,7 @@ function App() {
         <PrivateRoute path="/coin/:id" component={CoinPage}></PrivateRoute>
         <PublicRoute path="/login" component={LoginPage}></PublicRoute> 
         <PublicRoute path="/register" component={Register}></PublicRoute>  */}
-        <PrivateRoute exact path='/home' component={Homepage} />
+        <PublicRoute exact path='/home' component={Homepage} />
         <PrivateRoute path='/coins/:id' component={CoinPage} />
         <PublicRoute path='/login' component={LoginPage} />
         <PublicRoute path='/register' component={Register} />
